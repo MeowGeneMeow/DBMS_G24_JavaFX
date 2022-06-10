@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Water">
+   <children>
+      <ImageView fitHeight="1050.0" fitWidth="1568.0" layoutX="-31.0" layoutY="-24.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../background.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="432.0" layoutY="36.0" text="Ｗater">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <Button layoutX="246.0" layoutY="211.0" mnemonicParsing="false" onAction="#comparison" text="多喝水PET700" AnchorPane.leftAnchor="595.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="法國EVIAN天然礦泉水PET550" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="泰山純水PET700" AnchorPane.leftAnchor="595.0" AnchorPane.topAnchor="450.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="統一H2O純水PET600" AnchorPane.leftAnchor="595.0" AnchorPane.topAnchor="550.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="悅氏LIGHT鹼性水PET700" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="550.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="PH9.0鹼性離子水PET800" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" text="韓國濟州火山岩盤礦泉水" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="450.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="統一UNI WATER純水PET550" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="650.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="多喝水鹼性竹炭水PET700" AnchorPane.leftAnchor="595.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="221.0" mnemonicParsing="false" onAction="#comparison" text="舒跑鹼性離子水PET850" AnchorPane.leftAnchor="595.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="130.0" mnemonicParsing="false" onAction="#comparison" text="台鹽海洋鹼性離子水PET850" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="423.0" layoutY="721.0" mnemonicParsing="false" onAction="#switchToSelectPage" text="Find Other Drinks">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LaticBeverage">
+   <children>
+      <ImageView fitHeight="1032.0" fitWidth="1489.0" layoutX="-25.0" layoutY="-2.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="-25.0">
+         <image>
+            <Image url="@../background.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="321.0" layoutY="30.0" text="Latic Beverage">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Button layoutX="167.0" layoutY="145.0" mnemonicParsing="false" onAction="#comparison" text="可爾必思水語乳酸飲料PET500" textAlignment="JUSTIFY" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="523.0" layoutY="144.0" mnemonicParsing="false" onAction="#comparison" text="蔬果可爾必思乳酸飲料PET500" textAlignment="JUSTIFY" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="372.0" layoutY="247.0" mnemonicParsing="false" onAction="#comparison" text="健酪乳酸飲料PET550" textAlignment="JUSTIFY" AnchorPane.topAnchor="300.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="404.0" layoutY="671.0" mnemonicParsing="false" onAction="#switchToSelectPage" text="Find Other Drinks" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
