@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="420.0" layoutY="71.0" prefHeight="59.0" prefWidth="193.0" text="餐廳評論">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="175.0" layoutY="213.0" text="營業時間：">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="452.0" text="菜單：">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="609.0" text="電話：02 2939 6484">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="344.0" layoutY="169.0" prefHeight="200.0" prefWidth="295.0" />
+      <Label layoutX="180.0" layoutY="682.0" text="評論：">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="293.0" layoutY="678.0" prefHeight="38.0" prefWidth="320.0" />
+      <Button layoutX="759.0" layoutY="676.0" mnemonicParsing="false" onAction="#sendComment" text="評論">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="scoreChoice" layoutX="643.0" layoutY="675.0" prefHeight="46.0" prefWidth="80.0" />
+      <Button layoutX="747.0" layoutY="77.0" mnemonicParsing="false" onAction="#switchToRestaurantComment" text="點我看評論">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="82.0" mnemonicParsing="false" onAction="#switchToUserPage" text="回上頁">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="385.0" layoutY="190.0" text="禮拜一 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="216.0" text="禮拜二 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="245.0" text="禮拜三 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="273.0" text="禮拜四 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="301.0" text="禮拜五 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="329.0" text="禮拜日 : 11:00~20:00 ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="menu" fitHeight="160.0" fitWidth="280.0" layoutX="310.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/桌面/波波恰恰菜單.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

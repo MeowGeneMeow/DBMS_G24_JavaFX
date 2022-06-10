@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="170.0" layoutY="473.0" text="座位上限：">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="536.0" text="電話號碼：">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="606.0" text="電話號碼：">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="676.0" text="店家位置：">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="100.0" text="營業時間：">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="25.0" text="星期">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="660.0" layoutY="25.0" text="時段">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="100.0" text="一">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="150.0" text="二">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="200.0" text="三">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="250.0" text="四">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="350.0" text="六">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="300.0" text="五">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="400.0" text="日">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="630.0" layoutY="110.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="160.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="210.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="260.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="310.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="360.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="630.0" layoutY="410.0" prefWidth="150.0" />
+      <Button layoutX="370.0" layoutY="735.0" mnemonicParsing="false" text="Register">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="600.0" layoutY="735.0" mnemonicParsing="false" text="回上頁">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
